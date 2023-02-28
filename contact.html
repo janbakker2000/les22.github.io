@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Verplichte metatags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="header">
+        <div class="inner_header">  
+            <div class="logo_container">
+                <h1>JanBakker</h1>
+                <div class="button">
+                  <a href="overmij.html"><button class="btn btn1">Overmij</button></a>
+                  <a href="contact.html"><button class="btn btn2">Contact</button></a>
+                  <a href="index.html"><button class="btn btn3">Home</button></a>
+                </div>
+                </div>
+          </div>  
+        </div>
+        <div class="fcf-body">
+
+            <div id="fcf-form">
+            <h2 class="fcf-h3">Contact opnemen</h2>
+            <br>
+        
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Uw voornaam <strong>*</strong></label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Voornaam" name="voornaam" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Uw achternaam <strong>*</strong></label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="achternaam" name="achternaam" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Uw E-mail adres <strong>*</strong></label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Uw Bericht</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Bericht" name="Bericht" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Verzenden</button>
+                </div>
+        
+            </form>
+            </div>
+        
+        </div>
+   
+        <div class="copyright_footer">
+            <h1>Opdracht 22 <b>Jan.B</b> </h1>
+          </div>
+          <div class="copyright"> &copy;2023 All Rights Reserved</div>
+    <!-- Bootstrap-JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
